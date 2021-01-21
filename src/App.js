@@ -1,25 +1,27 @@
-import logo from './logo.svg';
+import React from 'react';
+import { Switch, Route } from 'react-router-dom';
 import './App.css';
+import Home from './components/Home';
+import Article from './components/Article';
+import data from './components/data';
 
-function App() {
+export default function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <Switch>
+        <Route exact path="/article/:articleId">
+          <Article data={data}/>
+        </Route>
+        <Route path="/">
+          <Home />
+        </Route>
+      </Switch>
+      
+      <footer>
+        <p><a href="https://camlab.fas.harvard.edu/" target="_blank" rel="noreferrer noopener">INFO</a></p>
+        <p>2020 &copy; Harvard FAS Chinese Art Media Lab</p>
+      </footer>
     </div>
   );
 }
-
-export default App;

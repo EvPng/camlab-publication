@@ -1,4 +1,146 @@
-.App {
+.app {
+  height: 100%;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 0;
+}
+
+header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  max-width: 1920px;
+  z-index: 2;
+  height: 8rem;
+  background: #f8f8f8;
+  font-size: 2.2rem;
+  font-weight: 500;
+  border-bottom: 0.3rem solid #002D70;
+}
+
+.wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  flex: 0 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  align-content: center;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+.wrapper li{
+  padding: 0 0 0 0.2em;
+  display: inline-flex;
+  list-style: none;
+}
+
+a {
+  text-emphasis: none;
+  text-decoration: none;
+  color: #002D70;
+  cursor: pointer;
+  margin: 0;
+  border: 0px;
+}
+
+nav a:hover {
+  font-style: italic;
+}
+
+form.searchForm {
+  display: flex;
+  position: relative;
+  align-items: center;
+  margin-left: 0.5em;
+}
+
+input[type=text] {
+  width: 130px;
+  height: 1.75rem;
+  margin: 0em 0.5em;
+  flex: 1;
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  color: #002D70;
+  border-color: #002D70;
+  border-width: 0.15em;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+/* When the input field gets focus, change its width to 100% */
+input[type=text]:focus {
+  width: 180px;
+  color: #002D70;
+}
+
+::placeholder {
+  color:  #002D70;
+  opacity: 0.7;
+}
+
+button {
+  all: unset;
+  display: flex;
+  box-sizing: border-box;
+  cursor: pointer;
+  text-align: center;
+}
+
+button.searchBtn {
+  margin: 0;
+  flex: 0 0 auto;
+  padding: 0;
+  height: 30px;
+  width: 30px;
+  border: none;
+  background: none;
+  color: #002D70;
+}
+
+.searchSVG svg {
+  color: #002D70;
+  fill: currentColor;
+  width: 90%;
+  height: 90%;
+}
+
+main {
+  width: 100%;
+  flex: 1 1 auto;
+  position: relative;
+  margin: 0 0 0 0;
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  flex: 0 0 auto;
+  justify-content: space-between;
+}
+
+footer p {
+  padding: 2.2em 0;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+
+
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +177,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
