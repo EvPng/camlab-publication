@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/EvPng/camlab-publication/static/css/main.58eb46ea.chunk.css",
-    "main.js": "/EvPng/camlab-publication/static/js/main.b351d704.chunk.js",
-    "main.js.map": "/EvPng/camlab-publication/static/js/main.b351d704.chunk.js.map",
-    "runtime-main.js": "/EvPng/camlab-publication/static/js/runtime-main.e2e3f5d5.js",
-    "runtime-main.js.map": "/EvPng/camlab-publication/static/js/runtime-main.e2e3f5d5.js.map",
-    "static/js/2.0c00d471.chunk.js": "/EvPng/camlab-publication/static/js/2.0c00d471.chunk.js",
-    "static/js/2.0c00d471.chunk.js.map": "/EvPng/camlab-publication/static/js/2.0c00d471.chunk.js.map",
-    "static/js/3.8570ffc2.chunk.js": "/EvPng/camlab-publication/static/js/3.8570ffc2.chunk.js",
-    "static/js/3.8570ffc2.chunk.js.map": "/EvPng/camlab-publication/static/js/3.8570ffc2.chunk.js.map",
-    "index.html": "/EvPng/camlab-publication/index.html",
-    "static/css/main.58eb46ea.chunk.css.map": "/EvPng/camlab-publication/static/css/main.58eb46ea.chunk.css.map",
-    "static/js/2.0c00d471.chunk.js.LICENSE.txt": "/EvPng/camlab-publication/static/js/2.0c00d471.chunk.js.LICENSE.txt"
+    "main.css": "/camlab-publication/static/css/main.58eb46ea.chunk.css",
+    "main.js": "/camlab-publication/static/js/main.b351d704.chunk.js",
+    "main.js.map": "/camlab-publication/static/js/main.b351d704.chunk.js.map",
+    "runtime-main.js": "/camlab-publication/static/js/runtime-main.fd6d625c.js",
+    "runtime-main.js.map": "/camlab-publication/static/js/runtime-main.fd6d625c.js.map",
+    "static/js/2.0c00d471.chunk.js": "/camlab-publication/static/js/2.0c00d471.chunk.js",
+    "static/js/2.0c00d471.chunk.js.map": "/camlab-publication/static/js/2.0c00d471.chunk.js.map",
+    "static/js/3.8570ffc2.chunk.js": "/camlab-publication/static/js/3.8570ffc2.chunk.js",
+    "static/js/3.8570ffc2.chunk.js.map": "/camlab-publication/static/js/3.8570ffc2.chunk.js.map",
+    "index.html": "/camlab-publication/index.html",
+    "static/css/main.58eb46ea.chunk.css.map": "/camlab-publication/static/css/main.58eb46ea.chunk.css.map",
+    "static/js/2.0c00d471.chunk.js.LICENSE.txt": "/camlab-publication/static/js/2.0c00d471.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.e2e3f5d5.js",
+    "static/js/runtime-main.fd6d625c.js",
     "static/js/2.0c00d471.chunk.js",
     "static/css/main.58eb46ea.chunk.css",
     "static/js/main.b351d704.chunk.js"
